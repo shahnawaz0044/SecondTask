@@ -1,0 +1,226 @@
+@media screen and (min-width: 200px) and (max-width: 850px) {
+    .fa-solid {
+        visibility: visible;
+        opacity: 1;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .logo-div img {
+        height: 30px;
+    }
+
+    .nav-div ul {
+        position: absolute;
+        top: 12%;
+        background-color: #75BF7A;
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        width: 100%;
+        justify-content: center;
+        transition: ease-in .3s linear;
+
+    }
+
+    .nav-div ul li {
+        top: 100px;
+        margin: 15px;
+    }
+
+    .btn-nav {
+        padding: 0px;
+    }
+
+    #shah:checked~ul {
+        left: 0;
+    }
+
+    #shah:checked+label .fa-solid::before {
+        content: "\f00d";
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text-div {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .text-div h1 {
+        font-size: 7vw;
+        font-weight: bold;
+        margin-top: 25px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .text-div p {
+        font-size: 3vw;
+        margin-top: 15px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .bg-div {
+        margin: 0px;
+    }
+
+    .btn-download {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-download a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .search-bar p {
+        margin: 20px 0px;
+        font-size: 7vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .search-input {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .search-input input {
+        margin-top: 10px;
+        width: auto;
+        padding: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-input a {
+        margin-top: 10px;
+        width: auto;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        margin: auto;
+        padding: auto;
+    }
+
+    .about h1 {
+        font-size: 4vw;
+        margin-top: 30px;
+
+    }
+
+    .about p {
+        margin-top: 10px;
+    }
+    .mobile-bar{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .n1{
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icon-right h2{
+        margin: auto;
+        font-size: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .n1 p{
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .n2{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .N2{
+
+        margin-top: 50px;
+    }
+    .icon-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .icon-left h2{
+       margin: auto;
+        font-size: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .n2 p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .benefits1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .benefits2{
+        margin: 0px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .f-btn{
+        display: flex;
+        flex-direction: column;
+    }
+}
